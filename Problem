@@ -1,0 +1,13 @@
+Network Connectivity Troubleshooter 
+
+
+Real world situation
+
+A server cannot connect to another server.
+
+Your script should automatically test
+
+DNS resolution
+Ping connectivity
+Port access
+Routing issues
