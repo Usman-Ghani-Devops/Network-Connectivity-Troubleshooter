@@ -23,11 +23,11 @@ Manually checking each layer of connectivity can be time-consuming and inefficie
 
 ## Features
 
-✔ Automated DNS resolution check
-✔ Verifies host reachability using ICMP (Ping)
-✔ Checks if a specific port is open or closed
-✔ Analyzes routing path using traceroute
-✔ Clean and readable output for quick diagnosis
+Automated DNS resolution check
+Verifies host reachability using ICMP (Ping)
+Checks if a specific port is open or closed
+Analyzes routing path using traceroute
+Clean and readable output for quick diagnosis
 
 ---
 
