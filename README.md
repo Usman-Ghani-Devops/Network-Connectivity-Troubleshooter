@@ -1,6 +1,6 @@
-# 🌐 Network Connectivity Troubleshooter
+# Network Connectivity Troubleshooter
 
-## 📌 Overview
+## Overview
 
 The **Network Connectivity Troubleshooter** is a Bash-based utility script designed to diagnose common network connectivity issues between servers.
 
@@ -8,7 +8,7 @@ In real-world environments, servers often fail to communicate due to problems li
 
 ---
 
-## 🚨 Problem Statement
+## Problem Statement
 
 In a real-world scenario, a server is unable to connect to another server.
 
@@ -21,7 +21,7 @@ Manually checking each layer of connectivity can be time-consuming and inefficie
 
 ---
 
-## ⚙️ Features
+## Features
 
 ✔ Automated DNS resolution check
 ✔ Verifies host reachability using ICMP (Ping)
@@ -31,7 +31,7 @@ Manually checking each layer of connectivity can be time-consuming and inefficie
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 Ensure the following tools are installed on your system:
 
@@ -43,7 +43,7 @@ Ensure the following tools are installed on your system:
 
 ---
 
-## 📂 Script Details
+## Script Details
 
 The script tests connectivity to a target server (`google.com`) on port `443` by default.
 
@@ -56,7 +56,7 @@ PORT=443
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. Save the script as:
 
@@ -78,7 +78,7 @@ PORT=443
 
 ---
 
-## 🔍 What the Script Checks
+## What the Script Checks
 
 ### 1. DNS Resolution
 
@@ -124,7 +124,7 @@ Uses traceroute to analyze the path packets take to reach the destination.
 
 ---
 
-## 🧪 Example Output
+## Example Output
 
 ```bash
 === Network Troubleshooting for google.com ===
@@ -136,7 +136,7 @@ ROUTE Path looks OK
 
 ---
 
-## 📈 Use Cases
+## Use Cases
 
 * Debugging server-to-server communication issues
 * Verifying firewall or security group rules
@@ -145,7 +145,7 @@ ROUTE Path looks OK
 
 ---
 
-## 🔒 Notes
+## Notes
 
 * Some servers may block ICMP (ping), which does not necessarily mean they are unreachable.
 * Traceroute results may vary due to network policies or firewalls.
@@ -153,7 +153,7 @@ ROUTE Path looks OK
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Developed as a practical real-world networking troubleshooting tool for Linux environments.
 
